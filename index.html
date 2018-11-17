@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>贪吃蛇</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <audio preload="none" loop="loop" id="audio" data-time="1">
+                <source src="sound/background.mp3" type="audio/mpeg">
+            </audio>
+    <div class="startPage" id="startPage">
+        <div class="startBtn" id="startBtn"></div>
+    </div>
+    <div class="wrapper">
+        <div class="left_side">
+            <img src="images/start.png" alt="" id="startP">
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="score">
+                    分数：
+                    <span id="score">0</span>
+                </div>
+            </div>
+            <div class="content" id="content"></div>
+        </div>
+
+    </div>
+    <div class="loser" id="loser">
+        <div class="con">
+            <div class="close" id="close"></div>
+            <span class="loserScore" id="loserScore">123</span>
+        </div>
+    </div>
+</body>
+
+</html>
